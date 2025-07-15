@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Brush Services - Professional Painting Services</title>
+    <meta name="description" content="Elite Brush Services offers professional residential and commercial painting services including interior/exterior painting, wall repairs, and color consultation.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="uploads/renovation.png" type="image/x-icon">
+    <style>
+        /* Basic styling */
+.header {
+    background: #1e3a8a;
+    color: #fff;
+    padding: 15px 0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-brand h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Toggle button (hamburger) */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav {
+        width: 100%;
+        display: none;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        background: #444;
+        padding: 10px;
+    }
+
+    .nav-menu li {
+        margin-bottom: 10px;
+    }
+
+    .nav.active {
+        display: block;
+    }
+}
+
+    </style>
+</head>
+<body>
+   <header class="header">
+    <div class="container">
+        <div class="nav-brand">
+           <a href="index.html"> <img src="uploads/Painting-logo.png" alt="" width="35%"></a>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            &#9776;
+        </div>
+        <nav class="nav" id="nav">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Interior Painting Services</h1>
+                <p>Transform your indoor spaces with professional interior painting solutions</p>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="container">
+                <div class="service-detail">
+                    <div class="service-main">
+                        <img src="uploads/Interior Painting.jpg" alt="Interior painting service">
+                        
+                        <h2>Professional Interior Painting</h2>
+                        <p>Our interior painting services are designed to transform your indoor spaces with precision, quality, and attention to detail. Whether you're looking to refresh a single room or renovate your entire home or office, our skilled professionals deliver exceptional results that exceed expectations.</p>
+                        
+                        <p>We use only premium quality paints and materials, ensuring long-lasting beauty and durability. Our team takes great care to protect your furniture and belongings while delivering clean, professional results on time and within budget.</p>
+                        
+                        <h2>Our Interior Painting Process</h2>
+                        <p><strong>1. Consultation & Assessment:</strong> We begin with a thorough consultation to understand your vision, assess the space, and provide recommendations on colors, finishes, and techniques.</p>
+                        
+                        <p><strong>2. Surface Preparation:</strong> Proper preparation is key to a lasting paint job. We clean, repair, and prime all surfaces to ensure optimal paint adhesion and finish quality.</p>
+                        
+                        <p><strong>3. Professional Application:</strong> Our skilled painters use professional-grade tools and techniques to apply paint evenly and efficiently, ensuring a smooth, beautiful finish.</p>
+                        
+                        <p><strong>4. Quality Inspection:</strong> We conduct a thorough inspection of all work and address any touch-ups before completing the project.</p>
+                        
+                        <p><strong>5. Cleanup & Protection:</strong> We leave your space clean and protected, with all furniture and belongings returned to their original positions.</p>
+                        
+                        <h2>Why Choose Our Interior Painting Services?</h2>
+                        <ul style="color: #666; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
+                            <li>15+ years of interior painting experience</li>
+                            <li>Licensed, insured, and bonded professionals</li>
+                            <li>Premium quality paints and materials</li>
+                            <li>Clean, efficient work practices</li>
+                            <li>Competitive pricing with transparent quotes</li>
+                            <li>Satisfaction guarantee on all work</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-sidebar">
+                        <div class="service-features">
+                            <h3>Services Included</h3>
+                            <ul>
+                                <li>Wall painting</li>
+                                <li>Ceiling painting</li>
+                                <li>Trim and molding</li>
+                                <li>Door and window frames</li>
+                                <li>Cabinet painting</li>
+                                <li>Accent walls</li>
+                                <li>Texture application</li>
+                                <li>Color consultation</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-features">
+                            <h3>Paint Types</h3>
+                            <ul>
+                                <li>Latex paint</li>
+                                <li>Oil-based paint</li>
+                                <li>Primer and sealers</li>
+                                <li>Specialty finishes</li>
+                                <li>Eco-friendly options</li>
+                                <li>Low-VOC paints</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-features">
+                            <h3>Room Types</h3>
+                            <ul>
+                                <li>Living rooms</li>
+                                <li>Bedrooms</li>
+                                <li>Kitchens</li>
+                                <li>Bathrooms</li>
+                                <li>Offices</li>
+                                <li>Hallways</li>
+                                <li>Basements</li>
+                                <li>Commercial spaces</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="contact-form" style="margin-top: 2rem;">
+                            <h3>Get a Quote</h3>
+                            <p>Ready to transform your space?</p>
+                            <a href="index.html#contact" class="btn btn-primary" style="display: block; text-align: center; margin-top: 1rem;">Request Free Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Interior Painting Testimonials</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The interior painting job on our home was absolutely perfect. The team was professional, clean, and the attention to detail was outstanding. Our living room looks amazing!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Maria González</h4>
+                            <span>Homeowner - Living Room & Kitchen</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Elite Brush Services painted our entire office space over the weekend. Minimal disruption to our business and the results exceeded our expectations. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>David Park</h4>
+                            <span>Business Owner - Office Interior</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The color consultation was invaluable, and the painting work was flawless. Every room in our house looks professionally done. Thank you for the excellent service!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Rachel Thompson</h4>
+                            <span>Homeowner - Whole House Interior</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready for Your Interior Painting Project?</h2>
+                    <p>Contact us today for a free consultation and personalized quote</p>
+                    <a href="index.html#contact" class="btn btn-primary">Get Free Quote</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+       <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                     <a href="index.html"> <img src="uploads/Painting-logo.png" alt="" width="45%" style="margin-bottom: 20px;"></a>
+                    <p>Your trusted partner for professional painting services in residential and commercial properties.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                      
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                          <li><a href="disclaimer.html">Disclaimer</a></li>
+                          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+             <div class="footer-section">
+    <h3>Contact Info</h3>
+    <p style="margin-bottom: 10px;">4516 Lakeview Drive<br>
+    Anchorage, AK 99501<br>
+    United States</p>
+    
+    <p style="margin-bottom: 10px;">
+        <strong>Phone:</strong> 
+        <a href="tel:+19075550148" style="color: inherit; text-decoration: none;">
+            +1 907-555-0148
+        </a>
+    </p>
+
+    <p style="margin-bottom: 10px;">
+        <strong>Email:</strong> 
+        <a href="mailto:customer@elitebrushservices.com" style="color: inherit; text-decoration: none;">
+            customer@elitebrushservices.com
+        </a>
+    </p>
+</div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="interior-painting.html">Interior Painting</a></li>
+                        <li><a href="exterior-painting.html">Exterior Painting</a></li>
+                        <li><a href="wall-repair.html">Wall Repairs</a></li>
+                        <li><a href="color-consultaion.html">Color Consultation</a></li>
+                        <li><a href="commercial-painting.html">Commercial Painting</a></li>
+                        <li><a href="speciality-finish.html">Specialty Finishes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <a href="https://elitebrushservices.com" target="_blank" style="text-decoration: none; color: #f8f9fa;">Elite Brush Services LLC. </a>All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+
+    toggle.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>

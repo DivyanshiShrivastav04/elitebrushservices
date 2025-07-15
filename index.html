@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Brush Services - Professional Painting Services</title>
+    <meta name="description" content="Elite Brush Services offers professional residential and commercial painting services including interior/exterior painting, wall repairs, and color consultation.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="uploads/renovation.png" type="image/x-icon">
+    <style>
+        /* Basic styling */
+.header {
+    background: #1e3a8a;
+    color: #fff;
+    padding: 15px 0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-brand h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Toggle button (hamburger) */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav {
+        width: 100%;
+        display: none;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        background: #444;
+        padding: 10px;
+    }
+
+    .nav-menu li {
+        margin-bottom: 10px;
+    }
+
+    .nav.active {
+        display: block;
+    }
+}
+
+    </style>
+</head>
+<body>
+   <header class="header">
+    <div class="container">
+        <div class="nav-brand">
+           <a href="index.html"> <img src="uploads/Painting-logo.png" alt="" width="35%"></a>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            &#9776;
+        </div>
+        <nav class="nav" id="nav">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Professional Painting Services</h2>
+                <p class="hero-subtitle">Transform your space with our expert residential and commercial painting solutions</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                    <a href="#services" class="btn btn-secondary">View Services</a>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-preview">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🏠</div>
+                        <h3>Interior Painting</h3>
+                        <p>Professional interior painting services for homes and offices with premium quality finishes.</p>
+                        <a href="interior-painting.html" class="service-link">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🏢</div>
+                        <h3>Exterior Painting</h3>
+                        <p>Weather-resistant exterior painting solutions that protect and beautify your property.</p>
+                        <a href="exterior-painting.html" class="service-link">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Wall Repairs</h3>
+                        <p>Expert wall repair services including crack filling, texture matching, and surface preparation.</p>
+                        <a href="wall-repair.html" class="service-link">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>Color Consultation</h3>
+                        <p>Professional color consultation to help you choose the perfect palette for your space.</p>
+                        <a href="color-consultaion.html" class="service-link">Learn More</a>
+                    </div>
+                        <div class="service-card">
+                        <div class="service-icon">🏭</div>
+                        <h3>Commercial Painting</h3>
+                        <p>Comprehensive commercial painting services for offices, retail spaces, warehouses, and industrial facilities.</p>
+                       
+                        <a href="commercial-painting.html" class="service-link">Learn More</a>
+                    </div>
+                       <div class="service-card">
+                        <div class="service-icon">✨</div>
+                        <h3>Specialty Finishes</h3>
+                        <p>Custom specialty finishes and decorative painting techniques to create unique and stunning visual effects.</p>
+                        <a href="speciality-finish.html" class="service-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-choose-us">
+            <div class="container">
+                <h2 class="section-title">Why Choose Elite Brush Services?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <h3>Licensed & Insured</h3>
+                        <p>Fully licensed and insured for your peace of mind</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⭐</div>
+                        <h3>Quality Guaranteed</h3>
+                        <p>We guarantee our work with comprehensive warranties</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🕒</div>
+                        <h3>On-Time Delivery</h3>
+                        <p>Projects completed on schedule without compromising quality</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💰</div>
+                        <h3>Competitive Pricing</h3>
+                        <p>Fair and transparent pricing with no hidden costs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-preview">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About Elite Brush Services</h2>
+                        <p>With over 15 years of experience in the painting industry, Elite Brush Services has established itself as a trusted name in residential and commercial painting. Our team of skilled professionals is dedicated to delivering exceptional results that exceed our clients' expectations.</p>
+                        <p>We use only premium quality paints and materials, ensuring long-lasting beauty and protection for your investment. From small residential touch-ups to large commercial projects, we handle every job with the same level of care and attention to detail.</p>
+                        
+                    </div>
+                    <div class="about-image">
+                        <img src="uploads/about.png" alt="Professional painters at work">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Elite Brush Services transformed our home beautifully. The team was professional, punctual, and the quality of work exceeded our expectations. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Sarah Johnson</h4>
+                            <span>Homeowner</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"We hired Elite Brush Services for our office renovation. They completed the project on time and within budget. The attention to detail was outstanding."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Michael Chen</h4>
+                            <span>Business Owner</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"From color consultation to final cleanup, the entire process was smooth and professional. Our exterior painting looks amazing and has held up perfectly."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Lisa Rodriguez</h4>
+                            <span>Property Manager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <div class="container">
+                <h2 class="section-title">Our Work</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="uploads/about.png" alt="Interior painting project">
+                        <div class="gallery-overlay">
+                            <h3>Interior Painting</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="uploads/exterior.jpeg" alt="Exterior house painting">
+                        <div class="gallery-overlay">
+                            <h3>Exterior Painting</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="uploads/commercial.jpeg">
+                        <div class="gallery-overlay">
+                            <h3>Commercial Project</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="uploads/textile.jpeg" alt="Wall texture work">
+                        <div class="gallery-overlay">
+                            <h3>Texture Coating</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+           <main>
+        <section id="contact" class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch for a free consultation and quote on your painting project</p>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="container">
+                <div class="about-content">
+                    <div class="contact-form">
+                        <h2>Request a Free Quote</h2>
+                    <form id="serviceRequestForm">
+    <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="property-type">Property Type *</label>
+        <select id="property-type" name="property-type" required>
+            <option value="">Select Property Type</option>
+            <option value="residential">Residential</option>
+            <option value="commercial">Commercial</option>
+            <option value="industrial">Industrial</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="service-type">Service Needed *</label>
+        <select id="service-type" name="service-type" required>
+            <option value="">Select Service</option>
+            <option value="interior-painting">Interior Painting</option>
+            <option value="exterior-painting">Exterior Painting</option>
+            <option value="wall-repairs">Wall Repairs</option>
+            <option value="color-consultation">Color Consultation</option>
+            <option value="specialty-finishes">Specialty Finishes</option>
+            <option value="maintenance">Maintenance Services</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="project-size">Project Size</label>
+        <select id="project-size" name="project-size">
+            <option value="">Select Project Size</option>
+            <option value="small">Small (1-2 rooms)</option>
+            <option value="medium">Medium (3-5 rooms)</option>
+            <option value="large">Large (Whole house/building)</option>
+            <option value="commercial">Commercial Project</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="timeline">Preferred Timeline</label>
+        <select id="timeline" name="timeline">
+            <option value="">Select Timeline</option>
+            <option value="asap">ASAP</option>
+            <option value="1-2-weeks">1-2 Weeks</option>
+            <option value="1-month">Within 1 Month</option>
+            <option value="flexible">Flexible</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="message">Project Details</label>
+        <textarea id="message" name="message" placeholder="Please describe your project, specific requirements, and any questions you may have..."></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit Request</button>
+</form>
+
+<script>
+    document.getElementById('serviceRequestForm').addEventListener('submit', function (e) {
+        e.preventDefault(); // prevent actual submission
+
+        const form = e.target;
+        const requiredFields = form.querySelectorAll('[required]');
+        let isValid = true;
+
+        requiredFields.forEach(field => {
+            if (!field.value.trim()) {
+                isValid = false;
+                field.style.border = "2px solid red";
+            } else {
+                field.style.border = "";
+            }
+        });
+
+        if (isValid) {
+            // Show popup
+            alert("Thank you! Your service request has been submitted.");
+            form.reset(); // Reset form
+        } else {
+            alert("Please fill out all required fields.");
+        }
+    });
+</script>
+
+                    </div>
+                    
+                   <div class="about-text">
+    <h2>Get in Touch</h2>
+    <p>Ready to transform your space with professional painting services? Contact Elite Brush Services today for a free consultation and personalized quote.</p>
+    
+    <div style="margin: 2rem 0;">
+        <h3>📞 Phone</h3>
+        <p style="color: #666; margin-bottom: 1.5rem;">
+            <a href="tel:+19075550148" style="color: inherit; text-decoration: none;">+1 907-555-0148</a>
+        </p>
+        
+        <h3>📧 Email</h3>
+        <p style="color: #666; margin-bottom: 1.5rem;">
+            <a href="mailto:customer@elitebrushservices.com" style="color: inherit; text-decoration: none;">customer@elitebrushservices.com</a>
+        </p>
+        
+        <h3>📍 Service Area</h3>
+        <p style="color: #666; margin-bottom: 1.5rem;">
+            4516 Lakeview Drive, Anchorage, AK 99501<br>
+            United States
+        </p>
+        
+        <h3>🕐 Business Hours</h3>
+        <p style="color: #666; margin-bottom: 1.5rem;">
+            Monday - Friday: 8:00 AM – 6:00 PM<br>
+            Saturday: 9:00 AM – 4:00 PM<br>
+            Sunday: Closed
+        </p>
+    </div>
+    
+    <h2>What to Expect</h2>
+    <ul style="color: #666; line-height: 1.8; margin-left: 2rem;">
+        <li>Response within 24 hours</li>
+        <li>Free on-site consultation</li>
+        <li>Detailed written estimate</li>
+        <li>Flexible scheduling options</li>
+        <li>Professional project management</li>
+    </ul>
+</div>
+
+                </div>
+            </div>
+        </section>
+
+     
+    </main>
+
+
+        <!-- Call to Action Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Transform Your Space?</h2>
+                    <p>Get a free, no-obligation quote for your painting project today.</p>
+                    <a href="#contact" class="btn btn-primary">Request Free Quote</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                     <a href="index.html"> <img src="uploads/Painting-logo.png" alt="" width="45%" style="margin-bottom: 20px;"></a>
+                    <p>Your trusted partner for professional painting services in residential and commercial properties.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                       
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+             <div class="footer-section">
+    <h3>Contact Info</h3>
+    <p style="margin-bottom: 10px;">4516 Lakeview Drive<br>
+    Anchorage, AK 99501<br>
+    United States</p>
+    
+    <p style="margin-bottom: 10px;">
+        <strong>Phone:</strong> 
+        <a href="tel:+19075550148" style="color: inherit; text-decoration: none;">
+            +1 907-555-0148
+        </a>
+    </p>
+
+    <p style="margin-bottom: 10px;">
+        <strong>Email:</strong> 
+        <a href="mailto:customer@elitebrushservices.com" style="color: inherit; text-decoration: none;">
+            customer@elitebrushservices.com
+        </a>
+    </p>
+</div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="interior-painting.html">Interior Painting</a></li>
+                        <li><a href="exterior-painting.html">Exterior Painting</a></li>
+                        <li><a href="wall-repair.html">Wall Repairs</a></li>
+                        <li><a href="color-consultaion.html">Color Consultation</a></li>
+                        <li><a href="commercial-painting.html">Commercial Painting</a></li>
+                        <li><a href="speciality-finish.html">Specialty Finishes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <a href="https://elitebrushservices.com" target="_blank" style="text-decoration: none; color: #f8f9fa;">Elite Brush Services LLC. </a>All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+
+    toggle.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
